@@ -26,10 +26,16 @@ function mostraAlert(
             alertCard.classList.add("success");
 
             alertCard.querySelector("h3").textContent = "Sucesso";
+            alertCard.querySelector("h3").style.color = "green";
+            alertCard.querySelector("p").style.color = "green";
+            alertCard.querySelector("button").style.color = "green";
         }else{
             alertCard.classList.add("error");
 
             alertCard.querySelector("h3").textContent = "Aviso Importante!";
+            alertCard.querySelector("h3").style.color = "red";
+            alertCard.querySelector("p").style.color = "red";
+            alertCard.querySelector("button").style.color = "red";
         }
 
         if(elementoFoco){

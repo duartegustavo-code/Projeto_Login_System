@@ -83,41 +83,59 @@ body.light {
 body.light .login-container {
     background: #ffffff;
     box-shadow: 0 20px 40px rgba(0, 114, 255, 0.15);
+    font-family: "Betania Patmos", cursive;
 }
 body.light .login-container h1 {
     color: #0f172a;
+    font-family: "Betania Patmos", cursive;
 }
 
 body.light .login-container p {
     color: #475569;
+    font-family: "Betania Patmos", cursive;
 }
 
 body.light .input-group label {
     color: #334155;
+    font-family: "Betania Patmos", cursive;
 }
 
 body.light .input-group input {
     background: #f1f5f9;
     color: #0f172a;
     border: 1px solid #cbd5e1;
+    font-family: "Betania Patmos", cursive;
 }
 
 body.light .input-group input::placeholder {
     color: #94a3b8;
+    font-family: "Betania Patmos", cursive;
 }
 
 body.light .theme-toggle-btn {
     background-color: rgba(15, 23, 42, 0.1);
     border: 1px solid rgba(15, 23, 42, 0.2);
     color: #0f172a;
+    font-family: "Betania Patmos", cursive;
 }
 
 body.light .footer {
     color: #64748b;
+    font-family: "Betania Patmos", cursive;
 }
 body.light .footer a {
     color: #0072ff;
+    font-family: "Betania Patmos", cursive;
 }
+
+body.light button{
+    font-family: "Betania Patmos", cursive;
+}
+
+body.light footer a:hover{
+    font-family: "Betania Patmos", cursive;
+}
+
 /*======================================
 Fim Hoje
 ======================================*/
@@ -188,7 +206,7 @@ button:hover{
 estilizando nosso modal
 =====================================*/
 
-.alert-overlay{
+.alert-overlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -199,6 +217,14 @@ estilizando nosso modal
     justify-content: center;
     align-items: center;
     z-index: 9999;
+}
+
+.alert-overlay .alert-box button .btn-success{
+    background-color: #00ff9d;
+}
+
+.alert-overlay .alert-box button .btn-error{
+    background-color: #b90707;
 }
 
 .alert-box{
@@ -245,4 +271,35 @@ estilizando nosso modal
     color: #020617;
     cursor: pointer;
     font-weight: bold;
+}
+
+/*=====================
+Criando tema claro do modal
+=====================*/
+
+body.light .alert-overlay{
+    background: rgba(252, 251, 251, 0.7);
+    font-family: "Betania Patmos", cursive;
+}
+
+body.light .alert-box{
+    background: #61b0ff;
+    box-shadow: 0 20px 50px rgba(148, 228, 255, 0.5);
+    font-family: "Betania Patmos", cursive;
+}
+
+body.light .alert-box h3{
+    color: #ffffff;
+    font-family: "Betania Patmos", cursive;
+}
+
+body.light .alert-box p{
+    color: #ffffff;
+    font-family: "Betania Patmos", cursive;
+}
+
+body.light .alert-box button{
+    background: linear-gradient(135deg, #61edd1, rgb(91, 248, 188));
+    color: #ffffff;
+    font-family: "Betania Patmos", cursive;
 }
